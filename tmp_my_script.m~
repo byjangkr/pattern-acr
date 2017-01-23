@@ -3,7 +3,7 @@ clc
 
 %addpath('step3_svm');
 addpath('func');
-addpath('libsvm');
+addpath('svm');
 
 
 fn.spklistfile = '/home/byjang/corpus/EST/speakerA';

@@ -15,6 +15,7 @@ allDV = [];
 allTest = [];
 allSpk = [];
 
+
 speaker_id = 1:max(fluency_data(:,1));
 [B,I]=sort(rand(length(speaker_id),1)); % suffle
 speaker_id = reshape(speaker_id(I),length(speaker_id)/gNum,gNum);
